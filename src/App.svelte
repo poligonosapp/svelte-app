@@ -7,6 +7,9 @@ radius of the selected circle.
 -->
 
 <script>
+
+import PolygonComponent from './components/PolygonComponent.svelte';
+
 	let i = 0;
 	let undoStack = [[]];
 	let circles = [];
